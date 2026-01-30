@@ -49,10 +49,8 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    gap: 50px;
-    padding: 90px 40px;
-    max-width: 1200px;
-    margin: auto;
+    gap: 40px;
+    padding: 80px 40px;
 }
 
 .hero-text {
@@ -60,17 +58,17 @@ body {
 }
 
 .hero-text h1 {
-    font-size: 42px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 15px;
 }
 
 .hero-text button {
     margin-top: 20px;
-    padding: 12px 26px;
+    padding: 12px 25px;
     border: none;
     background: #22c55e;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
 }
 
@@ -80,14 +78,12 @@ body {
 
 .hero-img img {
     width: 100%;
-    max-height: 420px;
-    object-fit: cover;
     border-radius: 20px;
 }
 
 
 .section {
-    padding: 90px 40px;
+    padding: 80px 40px;
     max-width: 1100px;
     margin: auto;
 }
@@ -105,21 +101,19 @@ body {
 
 .process-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 30px;
 }
 
 .process-card {
     background: #fff;
-    padding: 25px;
+    padding: 20px;
     border-radius: 18px;
     text-align: center;
 }
 
 .process-card img {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
     border-radius: 14px;
     margin-bottom: 15px;
 }
@@ -127,30 +121,27 @@ body {
 
 .feature-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap: 15px;
-    font-size: 16px;
 }
 
 
 .contact {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     align-items: center;
 }
 
 .contact-img img {
     width: 100%;
-    max-height: 380px;
-    object-fit: cover;
-    border-radius: 22px;
+    border-radius: 20px;
 }
 
 
 .footer {
     background: #111827;
     color: #cbd5e1;
-    padding: 60px 40px;
+    padding: 50px 40px;
 }
 
 .footer-grid {
@@ -207,10 +198,5 @@ footer p {
     .contact {
         flex-direction: column;
         text-align: center;
-    }
-
-    .hero-img img,
-    .contact-img img {
-        max-height: none;
     }
 }
