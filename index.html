@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Static Internship – Day 18 & 19</title>
+    <title>Static Internship | Responsive Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 
-<header class="header">
+<header class="navbar">
     <div class="logo">STATIC</div>
 
-    <nav class="nav" id="nav">
+    <nav class="nav-links" id="navLinks">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#process">Process</a>
+        <a href="#features">Features</a>
         <a href="#contact">Contact</a>
     </nav>
 
@@ -24,62 +25,121 @@
 
 
 <section id="home" class="hero">
-    <h1>Static Website Rebuild</h1>
-    <p>
-        Placeholder hero description explaining the purpose of the static
-        website project and internship learning flow.
-    </p>
+    <div class="hero-text">
+        <h1>Build Modern Static Websites</h1>
+        <p>
+            A professional frontend internship project focused on clean layouts,
+            responsiveness, real-world structure, and industry-level coding practices.
+        </p>
+        <button>Explore Program</button>
+    </div>
+    <div class="hero-img">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="">
+    </div>
 </section>
 
 
-<section id="about" class="section center">
+<section id="about" class="section">
     <h2>About This Project</h2>
     <p>
-        This project helps learners understand clean layout structure,
-        responsiveness, and real-world HTML & CSS practices.
+        This internship project is designed to help learners move from basic HTML knowledge
+        to confidently building complete static websites used in real-world environments.
     </p>
-</section>
-
-
-<section id="process" class="section center light">
-    <h2>How the Learning Process Works</h2>
     <p>
-        The internship is divided into daily tasks focusing on headers,
-        hero sections, content layout, footer structure, and responsiveness.
+        The focus is not on copying designs, but on understanding layout flow, spacing,
+        responsiveness, and clean structure using HTML, CSS, and JavaScript.
     </p>
 </section>
 
 
-<section class="section center">
-    <h2>Why This Project Matters</h2>
-    <ul class="list">
-        <li>Clear understanding of layout flow</li>
-        <li>Improved CSS positioning skills</li>
-        <li>Confidence in structuring real websites</li>
-        <li>Cleaner and maintainable code structure</li>
-    </ul>
+<section id="process" class="section light">
+    <h2>How the Learning Process Works</h2>
+    <div class="process-grid">
+        <div class="process-card">
+            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984" alt="">
+            <h3>Daily Tasks</h3>
+            <p>
+                Each day focuses on a specific section such as headers,
+                hero layouts, content blocks, or footers.
+            </p>
+        </div>
+        <div class="process-card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="">
+            <h3>AI Assisted Coding</h3>
+            <p>
+                Learners use AI responsibly to generate, understand,
+                and refine code instead of blind copy-paste.
+            </p>
+        </div>
+        <div class="process-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="">
+            <h3>Real Structure</h3>
+            <p>
+                Emphasis on real website structure, spacing consistency,
+                and clean reusable components.
+            </p>
+        </div>
+    </div>
 </section>
 
 
-<section id="contact" class="section center light">
-    <h2>Contact</h2>
-    <p>Email: placeholder@mail.com</p>
-    <p>Phone: +00 00000 00000</p>
+<section id="features" class="section">
+    <h2>Why This Project Matters</h2>
+    <div class="feature-list">
+        <div>✔ Strong understanding of layout flow</div>
+        <div>✔ Improved CSS & Flexbox skills</div>
+        <div>✔ Confidence in responsive design</div>
+        <div>✔ Cleaner and maintainable code</div>
+        <div>✔ Portfolio-ready project</div>
+        <div>✔ Industry-style development mindset</div>
+    </div>
+</section>
+
+
+<section id="contact" class="section light contact">
+    <div class="contact-text">
+        <h2>Get In Touch</h2>
+        <p>
+            Have questions about the internship or want to know more?
+            Feel free to reach out.
+        </p>
+        <p>Email: placeholder@mail.com</p>
+        <p>Phone: +00 00000 00000</p>
+    </div>
+    <div class="contact-img">
+        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="">
+    </div>
 </section>
 
 
 <footer class="footer">
-    © 2026 Static Website Rebuild
+    <div class="footer-grid">
+        <div>
+            <h3>STATIC</h3>
+            <p>
+                A modern frontend internship focused on clean,
+                responsive, and professional static website development.
+            </p>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#process">Process</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div>
+            <h3>Resources</h3>
+            <p>HTML & CSS Basics</p>
+            <p>Responsive Design</p>
+            <p>Frontend Best Practices</p>
+        </div>
+    </div>
+    <p class="copyright">
+        © 2026 Static Internship Project
+    </p>
 </footer>
 
-<script>
-const hamburger = document.getElementById("hamburger");
-const nav = document.getElementById("nav");
-
-hamburger.onclick = () => {
-    nav.classList.toggle("show");
-};
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
